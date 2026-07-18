@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+title: "Graphictac Knowledge Base Database"
+type: dataset
+version: 0.1.0
+date-released: 2026-07-18
+authors:
+  - name: "Graphictac"
+publisher: "Graphictac"
+license: CC-BY-4.0
+repository-code: "https://github.com/funkiki-david/Graphictac-KnowlegeBase-database"
+url: "https://github.com/funkiki-david/Graphictac-KnowlegeBase-database"
+keywords:
+  - printable vinyl
+  - print and cut
+  - vehicle graphics
+  - printer compatibility
+  - wrap films
+  - decals
