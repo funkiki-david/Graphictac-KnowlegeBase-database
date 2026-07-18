@@ -57,7 +57,7 @@ Dataset and documentation content is released under [Creative Commons Attributio
 
 Use the metadata in [`CITATION.cff`](CITATION.cff), or cite:
 
-> Graphictac. *Graphictac Knowledge Base Database*, version 0.1.0, 2026. https://github.com/funkiki-david/Graphictac-KnowlegeBase-database
+> Graphictac. *Graphictac Knowledge Base Database*, version 0.1.0, 2026. https://github.com/funkiki-david/Graphictac-KnowledgeBase-database
 
 ## Version
 
