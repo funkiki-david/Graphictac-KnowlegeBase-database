@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/funkiki-david/Graphictac-KnowlegeBase-database/blob/main/schema/dataset.schema.json",
+  "title": "Graphictac Knowledge Base Database schemas",
+  "description": "Row schemas for the public Graphictac research datasets.",
+  "$defs": {
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "printerBrandRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["brand", "priority_families", "ink_workflow", "useful_compatibility_angles", "draft_content_opportunities", "source_url"],
+      "properties": {
+        "brand": {"type": "string"},
+        "priority_families": {"type": "string"},
+        "ink_workflow": {"type": "string"},
+        "useful_compatibility_angles": {"type": "string"},
+        "draft_content_opportunities": {"type": "string"},
+        "source_url": {"$ref": "#/$defs/url"}
+      }
+    },
+    "competitorProductRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["brand", "priority_product_family", "product_examples", "positioning_signals", "ink_printer_compatibility", "best_draft_angles", "claim_risk", "source_url"],
+      "properties": {
+        "brand": {"type": "string"},
+        "priority_product_family": {"type": "string"},
+        "product_examples": {"type": "string"},
+        "positioning_signals": {"type": "string"},
+        "ink_printer_compatibility": {"type": "string"},
+        "best_draft_angles": {"type": "string"},
+        "claim_risk": {"enum": ["High", "Medium", "Low"]},
+        "source_url": {"$ref": "#/$defs/url"}
+      }
+    },
+    "sourceRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "source_type", "brand_or_topic", "content_cluster", "source_url", "date_checked", "claim_category", "phase_1_use"],
+      "properties": {
+        "source_id": {"type": "string", "pattern": "^SRC-[A-Z]-[0-9]{3}$"},
+        "source_type": {"type": "string"},
+        "brand_or_topic": {"type": "string"},
+        "content_cluster": {"type": "string"},
+        "source_url": {"$ref": "#/$defs/url"},
+        "date_checked": {"type": "string", "format": "date"},
+        "claim_category": {"type": "string"},
+        "phase_1_use": {"type": "string"}
+      }
+    }
+  }
+}
