@@ -1,0 +1,32 @@
+{
+  "name": "Graphictac Knowledge Base Database",
+  "version": "0.1.0",
+  "published": "2026-07-18",
+  "license": "CC-BY-4.0",
+  "datasets": [
+    {
+      "name": "printer_brand_research_matrix",
+      "csv": "data/printer_brand_research_matrix.csv",
+      "jsonl": "data/printer_brand_research_matrix.jsonl",
+      "rows": 6,
+      "csv_sha256": "91ca1af326be1024962ad43877d015c9214df24f81710880f43f3e0da9aef6c9",
+      "jsonl_sha256": "ec42cd790d753bbacca36daf5069f70702563c3b506afdf2c06c1a5a00574587"
+    },
+    {
+      "name": "competitor_product_research_matrix",
+      "csv": "data/competitor_product_research_matrix.csv",
+      "jsonl": "data/competitor_product_research_matrix.jsonl",
+      "rows": 8,
+      "csv_sha256": "2347faac8f592db7d4b876172fac5886e339d00a6d6351318ac51fa05bf26d25",
+      "jsonl_sha256": "e16858ccb96f177b30f46b33bca0b217cedf5a08b697b2729932baefb6bfdba3"
+    },
+    {
+      "name": "source_library",
+      "csv": "data/source_library.csv",
+      "jsonl": "data/source_library.jsonl",
+      "rows": 14,
+      "csv_sha256": "d2c4b4b03ff98877c807d8da50a71b60df1d16bdf101a1ffd016670eb079006d",
+      "jsonl_sha256": "6d604e8674fb0ef2923e861c62309a9b80e218eafa8f242671ecea9aa4890ec2"
+    }
+  ]
+}
