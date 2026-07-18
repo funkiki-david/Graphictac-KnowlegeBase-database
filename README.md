@@ -62,5 +62,3 @@ Use the metadata in [`CITATION.cff`](CITATION.cff), or cite:
 ## Version
 
 Current release: **0.1.0** — initial public research snapshot, published 2026-07-18.
-# Graphictac-KnowlegeBase-database
-Public printable media compatibility knowledge base and AI-searchable reference database by Graphictac.
