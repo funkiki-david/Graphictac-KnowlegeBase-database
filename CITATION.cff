@@ -1,15 +1,15 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it using the metadata below."
-title: "Graphictac Knowledge Base Database"
+title: "MaxDecals Knowledge Base Database"
 type: dataset
 version: 0.1.0
 date-released: 2026-07-18
 authors:
-  - name: "Graphictac"
-publisher: "Graphictac"
+  - name: "MaxDecals USA"
+publisher: "MaxDecals USA"
 license: CC-BY-4.0
-repository-code: "https://github.com/funkiki-david/Graphictac-KnowledgeBase-database"
-url: "https://github.com/funkiki-david/Graphictac-KnowledgeBase-database"
+repository-code: "https://github.com/funkiki-david/MaxDecals-Knowledge-Base-Database"
+url: "https://maxdecals.us/pages/knowledge-hub"
 keywords:
   - printable vinyl
   - print and cut
