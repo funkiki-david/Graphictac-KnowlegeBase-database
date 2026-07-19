@@ -54,10 +54,14 @@ function parseCsv(input) {
 }
 
 const manifest = {
-  name: "Graphictac Knowledge Base Database",
+  name: "MaxDecals Knowledge Base Database",
   version: "0.1.0",
   published: "2026-07-18",
   license: "CC-BY-4.0",
+  publisher: "MaxDecals USA",
+  canonical_url: "https://maxdecals.us/pages/knowledge-hub",
+  repository: "https://github.com/funkiki-david/MaxDecals-Knowledge-Base-Database",
+  dataset_mirror: "https://huggingface.co/datasets/funkikitech/MaxDecals-Knowledge-Base-Database",
   datasets: []
 };
 
