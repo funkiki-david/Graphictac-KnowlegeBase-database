@@ -1,6 +1,6 @@
 # Creative Commons Attribution 4.0 International
 
-Copyright 2026 Graphictac.
+Copyright 2026 MaxDecals USA.
 
 The dataset and original documentation in this repository are licensed under the Creative Commons Attribution 4.0 International license (CC BY 4.0).
 
