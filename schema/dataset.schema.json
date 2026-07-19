@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/funkiki-david/Graphictac-KnowledgeBase-database/blob/main/schema/dataset.schema.json",
-  "title": "Graphictac Knowledge Base Database schemas",
-  "description": "Row schemas for the public Graphictac research datasets.",
+  "$id": "https://maxdecals.us/pages/knowledge-hub#dataset-schema",
+  "title": "MaxDecals Knowledge Base Database schemas",
+  "description": "Row schemas for the public MaxDecals USA research datasets. Canonical resource: https://maxdecals.us/pages/knowledge-hub",
   "$defs": {
     "url": {
       "type": "string",
